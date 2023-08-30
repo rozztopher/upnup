@@ -1,0 +1,74 @@
+{
+    "arion": {
+        "name": "Arion Izairi",
+        "role": "3D Intern",
+        "quote": "“Discipline is doing what you hate to do, but nonetheless doing it like you love it”",
+        "desc": [],
+        "linkedIn" : ""
+    },
+    "artur": {
+        "name": "Artur Said",
+        "role": "UI/UX Designer",
+        "quote": "“UI without UX is like beauty without brains. Not good enough!”",
+        "desc": [],
+        "linkedIn" : ""
+    },
+    "felix": {
+        "name": "Felix Brunold",
+        "role": "Design Lead",
+        "quote": "“Work hard but never miss out on the fun.”",
+        "desc": [
+            "After a quick dive at ETH in the field of mechanical engineering Felix has decided to look for something more suitable, something he is passionate about. And so, he began his studying Industrial Designat Zürich University of the Artswhere he has found his determination as a digital generalist. With his expertise he now enriches our workflow enormously.",
+            "He believes in team spirit and a good feedback culture to get thinks better and faster done. Luckily, he has found all this in our wonderful Upnup team."
+        ],
+        "linkedIn" : "https://www.linkedin.com/in/felixbrunold/"
+    },
+    "fredy": {
+        "name": "Friedrich Gauss",
+        "role": "Founder & CEO",
+        "quote": "“Realize your passion instead of just talking about it.”",
+        "desc": [
+            "After a brief while at the ETH and FUS, Friedrich had had enough of dry theory. His drive and passion for the tech industry and entrepreneurship overwhelmed him and led him to his first, own startup at the young age of 18. Since then, he not only successfully realizes his own visions, but also helps others to develop and implement great ideas.",
+            "He believes that with a creative, passionate team, he can leave a lasting footprint in the tech world."
+        ],
+        "linkedIn" : "https://www.linkedin.com/in/friedrichgauss/"
+    },
+    "gian": {
+        "name": "Gian Froelich",
+        "role": "Partner & Project Manager",
+        "quote": "“Building connections to inspire.”",
+        "desc": [
+            "When he was asked what he really wants, what his passion is, it was evident: interacting with people is his fuel! Gian is the first face you see when you get in touch with us and he is already looking forward to finding possibilities and solutions for your individual situation.",
+            "He believes that if everyone uses some of their energy to achieve as a community, you can go beyond what is imaginable."
+        ],
+        "linkedIn" : "https://www.linkedin.com/in/gianfroelich/"
+    },
+    "lea": {
+        "name": "Lea Schumacher",
+        "role": "Head of Marketing",
+        "quote": "“There is always a story to tell.”",
+        "desc": [
+            "Lea started writing murder fiction as a small child, fascinating those around herwith them. She then broadened the topics and developed her talent and passion over the years.",
+            "Having completed her bachelor of arts in mediaand communication management allows her to combine hertalent with scientific skills and expertise to create concepts, identities, storiesand much more.",
+            "She believes that now is the timefor changeand she loves having such a great team by her side to make it come true."
+        ],
+        "linkedIn" : "https://www.linkedin.com/in/lea-schumacher98/"
+    },
+    "lorenzo": {
+        "name": "Lorenzo Pérez Jiménez",
+        "role": "Blockchain Expert",
+        "quote": "“Blockchain is freedom.”",
+        "desc": [],
+        "linkedIn" : "https://www.linkedin.com/in/lorenzopérezjiménez/"
+    },
+    "ross": {
+        "name": "Ross Clelland",
+        "role": "Tech Lead",
+        "quote": "“I want to create unique experiences to inspire people.”",
+        "desc": [
+            "Ross graduated with a Master’s degree in computer science at the University of Strathclyde in Glasgow. During his study he internedat a local data analytics company to develop and design various internal tools an dweb apps. But having no say on what goes on, he felt the urge to move onto pursue something more creative. Since then, Ross enhances the Upnup team with his calming and creative mind as well as his extensive expertise.",
+            "He believes in approaching and solving challenges in both a professional and fun way."
+        ],
+        "linkedIn" : "https://www.linkedin.com/in/rossclelland/"
+    }
+}

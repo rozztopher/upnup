@@ -1,0 +1,214 @@
+.holoembedportrait {
+    margin: initial;
+    padding: initial;
+    font-size: initial;
+}
+
+.holoembed {
+    margin: initial;
+    padding: initial;
+    font-size: initial;
+}
+
+.holoembedyou {
+    margin: initial;
+    padding: initial;
+    font-size: initial;
+}
+
+.grid-2 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2vw;
+    row-gap: 2vw;
+    grid-auto-rows: 1fr;
+}
+
+.service-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2vw;
+    row-gap: 2vw;
+    grid-auto-rows: 1fr;
+}
+
+.header-rec {
+    position: relative;
+    display: flex;
+    background: #f8f8f880;
+    border-radius: 1vw;
+    color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 1vh;
+  }
+  
+  .sub-rec {
+    position: relative;
+    display: flex;
+    background: #80808080;
+    border-radius: 1vw;
+    color: black;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 1vw;
+  }
+  
+  .para-rec {
+    position: relative;
+    display: block;
+    background: #80808080;
+    border-radius: 1vw;
+    color: black;
+    width: 100%;
+    height: 100%;
+    padding: 1vh 2.5vw;
+  }
+  
+  .subservice-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.25fr 0.75fr;
+    column-gap: 2vw;
+    row-gap: 2vw;
+    grid-auto-rows: 1fr;
+  }
+
+  .body {
+    font-size: 1rem;
+  }
+
+  .holoembed {
+    position: relative;
+    display: block;
+    width: 1440px;
+    height: 900px;
+    z-index: 5;
+    pointer-events: all;
+    background: rgba(73, 134, 108, 0.3);
+    border: 10px solid #54ffb7;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 5% 10%;
+    color: #f8f8f8;
+    font-size: 1.5rem;
+  }
+  
+  .holoembedportrait {
+    position: relative;
+    width: 400px;
+    height: 800px;
+    z-index: 5;
+    pointer-events: all;
+    background: rgba(73, 134, 108, 0.3);
+    border: 10px solid #54ffb7;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 5% 10%;
+    color: #f8f8f8;
+    font-size: 1.5rem;
+  }
+  
+  .purpol {
+    background: #5d429430;
+    border: 10px solid #5d4294;
+  }
+  
+  .holoembedyou {
+    position: relative;
+    display: block;
+    width: 1440px;
+    height: 700px;
+    z-index: 5;
+    pointer-events: all;
+    background: rgba(73, 134, 108, 0.3);
+    border: 10px solid #54ffb7;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 2.5% 10%;
+    color: #f8f8f8;
+    font-size: 1.5rem;
+  }
+
+  .carousel {
+    position: absolute;
+    display: flex;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 99998;
+    pointer-events: all;
+  }
+
+  .dot {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100%;
+    background: #54ffb7;
+    z-index: 99999;
+    pointer-events: all;
+  }
+
+  .enter-input-text {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgba(143, 135, 202, 0.19);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-left: 1vw;
+    color: #000;
+  }
+
+
+.glass_active {
+  height: 200px;
+  width: 200px;
+  background: rgb(217, 217, 217);
+  background: linear-gradient(320deg, rgba(156, 156, 156, 0.2) 0%, rgba(255, 255, 255, 0.3) 100%);
+  border-radius: 100%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+//active state of the button
+
+.glass_init {
+  color: white;
+  height: 200px;
+  width: 200px;
+  background: rgb(217, 217, 217);
+  background: linear-gradient(320deg, rgba(0, 0, 0, 0.3) 0%, rgba(102, 102, 102, 0.5) 100%);
+  border-radius: 100%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  

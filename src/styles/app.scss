@@ -1,0 +1,40 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #ffffff;
+}
+@font-face {
+	font-family: "DMSans";
+	src: url("../fonts/DMSans-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "Poppins";
+	src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+}
+@font-face {
+	font-family: "ObjectivityRegular";
+	src: url("../fonts/Objectivity-Regular.otf") format("truetype");
+}
+@font-face {
+	font-family: "RealistWide";
+	src: url("../fonts/Objectivity-Regular.otf") format("truetype");
+}
+body {
+	background: #06061c;
+	background-image: url("../images/mobile_bg_gradient.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "ObjectivityRegular";
+}
+@media only screen and (min-width: 1024px) {
+	body {
+		background-image: url("../images/tablet_bg_gradients.svg");
+	}
+}
+@media only screen and (min-width: 1920px) {
+	body {
+		background-image: url("../images/desktop_bg_gradients.svg");
+	}
+}

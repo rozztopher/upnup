@@ -1,0 +1,12 @@
+@media only screen and (min-width: 1024px) {
+	.padding {
+		padding: 1.625em 4.875em 0;
+	}
+}
+
+/* For desktop: */
+@media only screen and (min-width: 1920px) {
+	.padding {
+		padding: 1.625em 21.25em 0;
+	}
+}

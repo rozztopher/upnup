@@ -1,0 +1,49 @@
+.gradientButton {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.93em;
+	line-height: 2.5em;
+	color: #ffffff;
+	background: linear-gradient(90deg, #8f27e1 0%, #7727e1 18.77%, #1bf1ad 100%);
+	box-shadow: 0px 10px 44px rgba(76, 135, 201, 0.3);
+	border-radius: 9px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 11px 48px;
+	width: 21.56em;
+	height: 3.87em;
+}
+.gradientButton-inactive {
+	background: gray;
+	color: #acacac;
+}
+.gradientButton__sm {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 0.93em;
+	line-height: 2.5em;
+	color: #ffffff;
+	background: linear-gradient(90deg, #8f27e1 0%, #7727e1 18.77%, #1bf1ad 100%);
+	box-shadow: 0px 10px 44px rgba(76, 135, 201, 0.3);
+	border-radius: 9px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 11px 48px;
+	width: 12.93em;
+	height: 3.87em;
+}
+
+@media only screen and (min-width: 1024px) {
+	.gradientButton {
+		width: 274px;
+		height: 62px;
+	}
+}
+@media only screen and (min-width: 1920px) {
+}

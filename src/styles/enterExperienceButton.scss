@@ -1,0 +1,28 @@
+.enter-button {
+	// padding: 15px;
+	width: 100%;
+	cursor: pointer;
+	margin-top: 32px;
+	backdrop-filter: blur(24px);
+	background: linear-gradient(90deg, #8f27e1 0%, #7727e1 18.77%, #1bf1ad 100%);
+	box-shadow: 0px 10px 44px rgba(76, 135, 201, 0.3);
+	border-radius: 9px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 48px;
+	border: transparent;
+	font-family: "ObjectivityRegular";
+}
+
+@media only screen and (min-width: 1024px) {
+	.enter-button {
+		width: 60%;
+	}
+}
+@media only screen and (min-width: 1920px) {
+	.enter-button {
+		width: 50%;
+	}
+}

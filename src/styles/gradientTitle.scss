@@ -1,0 +1,41 @@
+.gradient__title {
+	background: linear-gradient(90deg, #8f27e1 0%, #7727e1 18.77%, #1bf1ad 100%);
+	background-color: linear-gradient(
+		90deg,
+		#8f27e1 0%,
+		#7727e1 18.77%,
+		#1bf1ad 100%
+	);
+	background-image: linear-gradient(
+		90deg,
+		#8f27e1 0%,
+		#7727e1 18.77%,
+		#1bf1ad 100%
+	);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	color: transparent;
+	display: inline-block;
+	font-family: "ObjectivityRegular";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 0.8em;
+	line-height: 1.8em;
+	text-align: center;
+	/* identical to box height, or 207% */
+
+	letter-spacing: 0.1em;
+}
+
+@media only screen and (min-width: 1024px) {
+	.gradient__title {
+		font-size: 1em;
+		text-align: left;
+	}
+}
+
+@media only screen and (min-width: 1920) {
+}
